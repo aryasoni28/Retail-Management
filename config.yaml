@@ -1,0 +1,16 @@
+analysis:
+  break_even_months: 36
+  budget: 80
+  max_candidates: 100
+  search_radius_miles: 15
+  target_turnover: 20
+apis:
+  census:
+    key: "your_census_api_key_here"
+  gemini:
+    key: "your_gemini_api_key_here"
+visualization:
+  default_zoom: 4
+  map_center:
+  - 39.8283
+  - -98.5795
