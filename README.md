@@ -20,31 +20,38 @@ A comprehensive Streamlit-based analytics suite for Walmart site selection, dema
  Directory Structure
 
 
-.
-├── main.py                   Streamlit app entry point (Site Selector)
-├── integratedapp.py          Integrated multi-app Streamlit interface
-├── enhancedintegratedapp.py  Enhanced UI version of the integrated app
-├── inventory_app.py          Inventory prediction dashboard
-├── analysis_engine.py        Core analysis logic (site selection, demand modeling)
-├── explainer_service.py      Generates human-readable explanations for site choices
-├── constants.py              Key constants and configuration
-├── config.yaml               User-editable configuration (API keys, defaults)
-├── requirements.txt          Python dependencies
-├── models/
-│   └── demand_model.joblib   Trained demand prediction model
+<pre>
+walmart_locator_rhn/
+├── analysis_engine.py
+├── config.yaml
+├── constants.py
+├── debug.py
+├── debug_gemini.py
+├── enhancedintegratedapp.py
+├── explainer_service.py
+├── integratedapp.py
+├── inventory_app.py
+├── main.py
+├── prodmain.py
+├── requirements.txt
+├── test_census.py
+├── walmart_full_synthetic_data.csv
+├── walmart_shock_simulated_data.csv
+├── walmart.png
 ├── data/
-│   ├── raw/                  Raw input data
-│   ├── processed/            Processed/cleaned data
-│   └── external/             External data sources
+│ ├── external/
+│ ├── processed/
+│ └── raw/
+├── models/
+│ └── demand_model.joblib
 ├── utils/
-│   ├── data_fetcher.py       Fetches and processes external data (Census, APIs)
-│   ├── geo_utils.py          Geographic utilities (FIPS, coordinates)
-│   ├── model_utils.py        Model training, loading, and prediction helpers
-│   ├── visualization.py      Map and chart visualization utilities
-│   ├── config_manager.py     Handles config and API keys
-│   └── test_census.py        Utility tests
-└── test_census.py            Standalone test script
-
+│ ├── config_manager.py
+│ ├── data_fetcher.py
+│ ├── geo_utils.py
+│ ├── model_utils.py
+│ ├── test_census.py
+│ └── visualization.py
+</pre>
 
  Installation
 
