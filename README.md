@@ -53,6 +53,9 @@ walmart_locator_rhn/
 │ └── visualization.py
 </pre>
 
+![image1](image1.jpeg)
+![image2](image2.jpeg)
+
  Installation
 
 1. Clone the repository:
