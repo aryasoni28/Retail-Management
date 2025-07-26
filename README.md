@@ -15,7 +15,8 @@ A comprehensive Streamlit-based analytics suite for Walmart site selection, dema
 - Interactive Visualizations:  
   Folium and Plotly-based maps and charts for intuitive exploration of results.
 
-  ![high_level_design Screenshot](models/HIgh_level_design)
+  <img width="1920" height="1080" alt="HLD_img" src="https://github.com/user-attachments/assets/7c8fa878-9602-4e55-a1b2-0f17f99f7fd0" />
+
 
  Directory Structure
 
