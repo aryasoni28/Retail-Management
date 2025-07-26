@@ -123,7 +123,3 @@ See requirements.txt for the full list. Key packages:
 - Plug in new models via utils/model_utils.py.
 - Customize visualizations in utils/visualization.py.
 
- License
-
-[MIT License] (or your preferred license)
-
