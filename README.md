@@ -56,7 +56,7 @@ walmart_locator_rhn/
 
 ![image1](image1.jpeg)
 ![image2](image2.jpeg)
-
+NOTE:The screenshots below highlight a few of the core features of the project. However, the project includes several additional features that are not shown here.
  Installation
 
 1. Clone the repository:
